@@ -155,3 +155,33 @@ header .create-acc-btn {
     font-size: 1rem;
     text-align: center;
 }
+
+
+/* Fourth Section Styling */
+.fourth-section {
+    background-color: #5F6FFF;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem 0 5rem;
+    border-radius: 10px;
+}
+
+.fourth-section img {
+    width: 25rem;
+    margin-top: -2rem;
+}
+
+.fourth-section h1 {
+    font-size: 3rem;
+}
+
+.fourth-section button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: #595959;
+    margin-top: 20px;
+}
