@@ -109,3 +109,49 @@ header .create-acc-btn {
     background-color: white;
     color: #595959;
 }
+
+
+/* Third Section Styling */
+.third-section {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.third-section .headings h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.third-section .headings p {
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.third-section .professions {
+    display: flex;
+    padding: 0 20rem;
+    gap: 18px;
+    font-size: 12px;
+}
+
+.third-section .professions img {
+    width: 6rem;
+    margin-bottom: 0.5rem;
+}
+
+.third-section .headings.second {
+    margin-top: 7rem;
+}
+
+.third-section button {
+    color: #4B5563;
+    background-color: #EAEFFF;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 5rem;
+    font-size: 1rem;
+    text-align: center;
+}
