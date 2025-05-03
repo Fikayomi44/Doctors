@@ -6,7 +6,11 @@
 }
 
 body {
-    padding: 1rem 10rem;
+    padding: 1rem 10.5rem;
+}
+
+button {
+    cursor: pointer;
 }
 
 
@@ -18,7 +22,7 @@ header {
 }
 
 header img {
-    width: 12rem;
+    width: 11rem;
 }
 
 header .list-flex {
@@ -63,4 +67,45 @@ header .create-acc-btn {
 
 .primary-hr {
     margin-top: 1rem;
+}
+
+
+/* Hero Section (2nd Section) Styling */
+.hero-section {
+    display: flex;
+    align-items: center;
+    gap: 4.5rem;
+    background-color: #5F6FFF;
+    color: white;
+    padding: 2rem 4rem 0 5rem;
+    margin-top: 1.2rem;
+    border-radius: 10px;
+}
+
+.hero-section .image {
+    margin-top: 2rem;
+    height: 30rem;
+}
+
+.hero-section .hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-section .hero-text .sub-flexed {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    align-items: center;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.hero-section .hero-text button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: #595959;
 }
