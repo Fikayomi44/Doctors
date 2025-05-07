@@ -136,6 +136,13 @@ header .create-acc-btn {
     font-size: 12px;
 }
 
+.third-section .professions div:hover {
+    transform: translate(0, -10px);
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+    /* transition-delay: 1s; */
+}
+
 .third-section .professions img {
     width: 6rem;
     margin-bottom: 0.5rem;
