@@ -73,6 +73,7 @@ header .create-acc-btn {
 /* Hero Section (2nd Section) Styling */
 .hero-section {
     display: flex;
+    /* flex-wrap: wrap; */
     align-items: center;
     gap: 4.5rem;
     background-color: #5F6FFF;
@@ -136,11 +137,12 @@ header .create-acc-btn {
     font-size: 12px;
 }
 
+.third-section .professions div {
+    transition: 0.5s ease-in-out;
+}
+
 .third-section .professions div:hover {
-    transform: translate(0, -10px);
-    transition: 0.5s;
-    transition-timing-function: ease-out;
-    /* transition-delay: 1s; */
+    transform: translate(0, -10px);  
 }
 
 .third-section .professions img {
@@ -173,6 +175,7 @@ header .create-acc-btn {
     align-items: center;
     padding: 0 3rem 0 5rem;
     border-radius: 10px;
+    margin-bottom: 10rem;
 }
 
 .fourth-section img {
@@ -196,7 +199,7 @@ header .create-acc-btn {
 
 /* Footer Styling */
 footer .flex-container {
-    margin-top: 10rem;
+    margin-top: 3rem;
     display: flex;
     justify-content: space-between;
     gap: 20rem;
@@ -233,6 +236,10 @@ footer .flex-container a {
 footer .flex-container .get-in-touch p {
     line-height: 2;
 }
+
+/* .footer-rule {
+    color: red;
+} */
 
 footer .Copyright {
     text-align: center;
