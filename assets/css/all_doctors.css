@@ -1,0 +1,61 @@
+.browse-through-paragraph {
+    margin: 2rem 0 1rem;
+    color: #4B5563;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    gap: 2rem;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    height: 85vh;
+}
+
+.professions {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 16px;
+    font-size: 10px;
+}
+
+.professions button {
+    padding: 8px 1rem;
+    border: #e3dcdc solid 1px;
+    background: none;
+    text-align: start;
+}
+
+.unit-card {
+    background-color: rgb(230, 230, 230);
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.img-bgc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unit-card img {
+    width: 200px;
+}
+
+.Card-text {
+    background-color: rgb(245, 245, 245);
+    padding: 2rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.available {
+    color: rgb(71, 229, 60);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.Card-text h2 {
+    margin-bottom: 0.3rem;
+}

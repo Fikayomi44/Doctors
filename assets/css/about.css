@@ -1,0 +1,72 @@
+/* About Us Section */
+.about-us-header {
+    margin:2rem 0px ;
+    text-align: center;
+
+}
+
+.about-us-header span {
+    color: grey;
+}
+
+.about-us-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.about-us-content img {
+    width: 50%;
+    height: 40vh;
+    border-radius: 15px;
+}
+
+.about-us-text {
+    margin-top: 3rem;
+    color: grey;
+}
+
+.about-us-text h4 {
+    color: black;
+    font-weight: bold;
+}
+
+.about-us-text p {
+    margin-bottom: 1rem;
+}
+
+
+/* Why Choose Us Section */
+.choose-us-container {
+    margin-bottom: 9rem;
+}
+
+.choose-us-container h3 {
+margin: 2rem 0px;
+color: rgb(58, 49, 49);
+}
+
+.why-choose-us-container h3 span {
+    font-weight: lighter;
+    color: black;
+}
+
+.why-choose-us-content {
+    display: flex;
+    color: rgb(69, 57, 57);
+}
+
+.why-choose-us-content div {
+    border: 1px solid rgb(218, 211, 211);
+    width: 450px;
+    padding: 5rem;
+}
+
+.why-choose-us-content div:hover {
+    background-color: #7581f3;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.key-point h5 {
+    margin-bottom: 1rem;
+}
