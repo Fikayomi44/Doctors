@@ -1,6 +1,6 @@
 /* About Us Section */
 .about-us-header {
-    margin:2rem 0px ;
+    margin: 2rem 0px ;
     text-align: center;
 
 }
@@ -12,12 +12,16 @@
 .about-us-content {
     display: flex;
     gap: 2rem;
+
+    @media (max-width: 1100px) {
+        flex-wrap: wrap;
+    }
 }
 
 .about-us-content img {
-    width: 50%;
-    height: 40vh;
     border-radius: 15px;
+    max-width: 100%;
+    max-height: 40vh;
 }
 
 .about-us-text {
@@ -32,6 +36,10 @@
 
 .about-us-text p {
     margin-bottom: 1rem;
+
+    @media (max-width: 1100px) {
+        max-width: 60vw;
+    }
 }
 
 
@@ -53,12 +61,20 @@ color: rgb(58, 49, 49);
 .why-choose-us-content {
     display: flex;
     color: rgb(69, 57, 57);
+
+    @media (max-width: 1160px) {
+        flex-wrap: wrap;
+    }
 }
 
 .why-choose-us-content div {
     border: 1px solid rgb(218, 211, 211);
     width: 450px;
     padding: 5rem;
+
+    @media (max-width: 400px) {
+        padding: 2rem;
+    }
 }
 
 .why-choose-us-content div:hover {

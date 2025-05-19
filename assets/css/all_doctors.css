@@ -5,11 +5,19 @@
 
 .main-content {
     display: grid;
-    grid-template-columns: 1fr 10fr;
+    
     gap: 2rem;
     /* border: 2px solid red; */
     border-radius: 20px;
     height: 85vh;
+
+    @media (min-width: 700px) and (max-width: 1299px) {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    @media (min-width: 1300px) {
+        grid-template-columns: 1fr 10fr;
+    }
 }
 
 .professions {
