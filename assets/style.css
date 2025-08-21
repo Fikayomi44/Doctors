@@ -22,10 +22,6 @@ header {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-
-  @media (max-width: 970px) {
-    /* flex-wrap: wrap; */
-  }
 }
 
 header img {
@@ -35,10 +31,6 @@ header img {
 header .list-flex {
   display: flex;
   gap: 30px;
-
-  @media (max-width: 580px) {
-    /* flex-wrap: wrap; */
-  }
 }
 
 header ul {
@@ -47,10 +39,6 @@ header ul {
   gap: 25px;
   font-size: 14px;
   font-weight: 500;
-
-  @media (max-width: 425px) {
-    /* flex-wrap: wrap; */
-  }
 }
 
 header ul a {
