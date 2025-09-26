@@ -1,88 +1,57 @@
-/* About Us Section */
-.about-us-header {
-    margin: 2rem 0px ;
+/* about header */
+.about-us-header{
+    margin:2rem 0px ;
     text-align: center;
 
 }
-
-.about-us-header span {
+.about-us-header span{
     color: grey;
 }
-
-.about-us-content {
+.about-us-content{
     display: flex;
     gap: 2rem;
-
-    @media (max-width: 1100px) {
-        flex-wrap: wrap;
-    }
 }
-
-.about-us-content img {
-    border-radius: 15px;
-    max-width: 100%;
-    max-height: 40vh;
+.about-us-content img{
+    width: 50%;
+    height: 40vh;
 }
-
-.about-us-text {
+.about-us-text{
     margin-top: 3rem;
     color: grey;
 }
-
-.about-us-text h4 {
+.about-us-text h4{
     color: black;
     font-weight: bold;
 }
-
-.about-us-text p {
+.about-us-text p{
     margin-bottom: 1rem;
-
-    @media (max-width: 1100px) {
-        max-width: 60vw;
-    }
 }
 
-
-/* Why Choose Us Section */
-.choose-us-container {
-    margin-bottom: 9rem;
-}
-
-.choose-us-container h3 {
+/* choose us section */
+.choose-us-container h3{
 margin: 2rem 0px;
 color: rgb(58, 49, 49);
 }
-
-.why-choose-us-container h3 span {
+.choose-us-container h3 span{
     font-weight: lighter;
     color: black;
 }
 
-.why-choose-us-content {
+.choose-us-content{
     display: flex;
     color: rgb(69, 57, 57);
-
-    @media (max-width: 1160px) {
-        flex-wrap: wrap;
-    }
 }
-
-.why-choose-us-content div {
+.choose-us-content div{
     border: 1px solid rgb(218, 211, 211);
     width: 450px;
     padding: 5rem;
-
-    @media (max-width: 400px) {
-        padding: 2rem;
-    }
 }
-
-.why-choose-us-content div:hover {
+.choose-us-content div:hover{
     background-color: #7581f3;
     color: white;
     transition: 0.5s ease-in-out;
 }
 
-.key-point h5 {
+.key-point h5{
     margin-bottom: 1rem;
 }

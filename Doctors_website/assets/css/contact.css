@@ -1,0 +1,65 @@
+/* Contact Us (Main Section) */
+.contact-us-container {
+    margin-bottom: 5rem;
+}
+
+.heading {
+    text-align: center;
+    margin: 3.8rem 0;
+    font-size: 1.5rem;
+    color: #707070;
+    font-weight: 500;
+}
+
+.heading span {
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+.flex-contents {
+    /* border: 2px solid red; */
+    justify-content: center;
+    display: flex;
+    gap: 2.5rem;
+
+    @media (max-width: 700px) {
+        flex-wrap: wrap;
+    }
+}
+
+.flex-contents img {
+    max-height: 40vh;
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.contact-us-text-container {
+    color: #707070;
+}
+
+.contact-us-text-container h3 {
+    color: #423b3b;
+    margin: 2rem 0 1.5rem;
+}
+
+.contact-us-text-container p {
+    margin-top: 1.5rem;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.explore-btn {
+    text-decoration: none;
+    color: #1a1a1a;
+    background-color: #fff;
+    border: 1px solid #1a1a1a;
+    padding: 15px 25px;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    margin-top: 1.7rem;
+}
+
+.explore-btn:hover {
+    color: white;
+    background-color: #1a1a1a;
+}
